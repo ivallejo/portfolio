@@ -19,32 +19,32 @@ export default function Home() {
 
   const projects = [
     {
-      name: "Sistema de Microservicios E-commerce",
+      name: "Portal Oncosalud - Microservicios",
       period: "2023 - 2024",
       type: "Profesional",
-      description: "Una plataforma de comercio electrónico escalable desarrollada con una arquitectura de microservicios, manejando más de 100,000 transacciones diarias con alta disponibilidad y rendimiento optimizado.",
-      technologies: ["Node.js", "TypeScript", "PostgreSQL", "Docker", "AWS", "Redis", "Kubernetes"],
+      description: "Desarrollo y evolución de microservicios para el Portal Oncosalud utilizando NestJS y Laravel, integrados con servicios AWS. Construcción de microfrontends con Angular y Module Federation, mejorando la modularidad y capacidad de despliegue independiente.",
+      technologies: ["Node.js", "TypeScript", "NestJS", "Laravel", "Angular", "AWS", "Docker", "Pulumi"],
       links: {
         github: "https://github.com",
         demo: "https://demo.example.com"
       }
     },
     {
-      name: "API de Analytics en Tiempo Real",
-      period: "2022 - 2023",
+      name: "Sistema ERP TOTTUS - Microservicios",
+      period: "2021 - 2023",
       type: "Profesional", 
-      description: "Sistema de análisis de datos en tiempo real que procesa millones de eventos por día, proporcionando insights instantáneos para la toma de decisiones empresariales con latencia sub-segundo.",
-      technologies: ["Go", "ClickHouse", "Kafka", "Kubernetes", "Prometheus", "Grafana"],
+      description: "Desarrollo de microservicios distribuidos con Spring Boot y Node.js integrados con sistemas ERP mediante mensajería Kafka y Google Pub/Sub. Implementación de microfrontends con Angular y Module Federation desplegados en Google Cloud Platform.",
+      technologies: ["Spring Boot", "Node.js", ".NET Core", "Angular", "Kafka", "Google Cloud", "Kubernetes", "Oracle"],
       links: {
         github: "https://github.com"
       }
     },
     {
-      name: "Plataforma de Autenticación Empresarial",
-      period: "2021 - 2022",
+      name: "Portal Estudiantil - Universidad Científica del Sur",
+      period: "2019 - 2021",
       type: "Profesional",
-      description: "Servicio de autenticación de nivel empresarial con soporte para OAuth2, JWT y autenticación multifactor, sirviendo a más de 50,000 usuarios activos diarios.",
-      technologies: ["Node.js", "Express", "PostgreSQL", "Redis", "JWT", "OAuth2"],
+      description: "Desarrollo y mantenimiento de microservicios con Node.js y Laravel Lumen. Creación del portal estudiantil y aplicación móvil híbrida con Ionic. Sistema de colas para matrículas con Node.js, Angular y TypeScript.",
+      technologies: ["Node.js", "Laravel", "Angular", "Ionic", ".NET", "SQL Server", "AWS", "Docker"],
       links: {
         github: "https://github.com"
       }
@@ -53,47 +53,47 @@ export default function Home() {
 
   const experiences = [
     {
-      company: "TechCorp Solutions",
-      logo: "TC",
-      role: "Senior Backend Developer",
-      period: "01.01.2023 - presente",
-      description: "Liderando el desarrollo de arquitecturas de microservicios escalables que sirven a más de 1 millón de usuarios diarios. Responsable del diseño, implementación y mantenimiento de sistemas críticos de alta disponibilidad, optimización de bases de datos y mentorización de equipos de desarrollo junior."
+      company: "GSP Servicios Generales (AUNA)",
+      logo: "AU",
+      role: "Backend Developer Senior",
+      period: "Marzo 2024 - Actualidad",
+      description: "Desarrollo de microservicios aplicando Clean Architecture, DDD y arquitectura hexagonal. Implementación de flujos asincrónicos con Kafka, AWS Lambda, SQS, SNS y EventBridge. Manejo de seguridad con OAuth 2.0 y Amazon Cognito, utilizando Vault y AWS Secret Manager para secretos."
     },
     {
-      company: "InnovateTech",
-      logo: "IT", 
-      role: "Backend Developer",
-      period: "15.03.2020 - 31.12.2022",
-      description: "Desarrollé APIs robustas y optimicé el rendimiento de bases de datos para aplicaciones empresariales. Implementé soluciones de caching distribuido que mejoraron el rendimiento en un 60% y reduje los costos de infraestructura mediante optimizaciones de consultas y arquitectura."
+      company: "Quality & Development Software (AUNA)",
+      logo: "QD", 
+      role: "Backend Developer Senior",
+      period: "Julio 2023 - Febrero 2024",
+      description: "Desarrollo de microservicios para Portal Oncosalud con NestJS y Laravel integrados con AWS. Construcción de microfrontends con Angular y Module Federation. Integración con servicios SAP y pasarela de pagos Niubiz para optimizar procesos internos."
     },
     {
-      company: "StartupVenture",
-      logo: "SV",
-      role: "Full Stack Developer", 
-      period: "10.06.2018 - 14.03.2020",
-      description: "Desarrollé soluciones end-to-end en un entorno de startup de rápido crecimiento. Construí desde cero la plataforma principal de la empresa, implementé CI/CD pipelines y establecí las mejores prácticas de desarrollo que permitieron escalar el equipo de 3 a 15 desarrolladores."
+      company: "NEKSYS SAC",
+      logo: "NK",
+      role: "Desarrollador Senior", 
+      period: "Septiembre 2021 - Junio 2023",
+      description: "Desarrollo de microfrontends y microservicios distribuidos con Spring Boot, Node.js y .NET Core. Integración con sistemas ERP mediante Kafka y Google Pub/Sub. Despliegue en Google Cloud Platform con Kubernetes y gestión de bases de datos Oracle y SQL Server."
     },
     {
-      company: "FreelanceProjects",
-      logo: "FP",
-      role: "Consultor de Ingeniería de Software",
-      period: "01.01.2017 - presente", 
-      description: "Ofrezco consultoría técnica para proyectos de desarrollo de software, tomo decisiones técnicas e implemento soluciones complejas para productos SaaS. También soy mentor y coach de un grupo de desarrolladores con alto potencial."
+      company: "Universidad Científica del Sur",
+      logo: "UC",
+      role: "Analista Programador de Sistemas",
+      period: "Julio 2019 - Agosto 2021", 
+      description: "Desarrollo de microservicios con Node.js y Laravel Lumen. Mantenimiento de aplicaciones monolíticas en PHP para portales estudiantiles. Desarrollo de aplicación móvil híbrida con Ionic y sistema de colas para matrículas con tecnologías modernas."
     }
   ];
 
   const personalProjects = [
     {
-      name: "Sistema de Gestión de Servidores Cloud",
+      name: "Sistema de Gestión de Reportes ERP",
       type: "Personal",
-      description: "Un sistema de gestión de servidores diseñado específicamente para administrar infraestructura cloud. Permite la gestión simultánea de múltiples servidores, la revisión de registros, la creación de informes y la programación de tareas automatizadas.",
-      technologies: ["Docker", "Kubernetes", "Python", "React"]
+      description: "Desarrollo de módulo de reportes para ERP con generación y configuración de envíos periódicos automatizados. Implementación siguiendo patrón MVC para estructurar código de manera modular y mantenible en la industria ambiental.",
+      technologies: [".NET Framework", "C#", "SQL Server", "MVC"]
     },
     {
-      name: "Plataforma de Análisis de Rendimiento",
+      name: "Sistema de Control de Asistencia",
       type: "Personal",
-      description: "Una plataforma de análisis de rendimiento cuyo objetivo era optimizar completamente el rendimiento de aplicaciones web sin obligar a los desarrolladores a realizar cambios significativos. Consistía en scripts de Python modificados que ejecutaba el servidor, sitios PHP y analizadores de registros de Node.js.",
-      technologies: ["Python", "PHP", "Node.js", "JavaScript", "MongoDB"]
+      description: "Desarrollo de sistema personalizado de control de asistencia para instituciones educativas. Incluye aplicación automatizada para envío de boletas de notas en PDF generadas dinámicamente desde base de datos.",
+      technologies: ["PHP", "SQL Server", "Firebird", "JavaScript"]
     }
   ];
 
@@ -102,7 +102,7 @@ export default function Home() {
     { icon: Linkedin, href: "https://linkedin.com", color: "bg-blue-600 hover:bg-blue-700" },
     { icon: Youtube, href: "https://youtube.com", color: "bg-red-600 hover:bg-red-700" },
     { icon: Twitter, href: "https://twitter.com", color: "bg-blue-400 hover:bg-blue-500" },
-    { icon: Mail, href: "mailto:contact@example.com", color: "bg-orange-500 hover:bg-orange-600" },
+    { icon: Mail, href: "mailto:vallejoaguilar@gmail.com", color: "bg-orange-500 hover:bg-orange-600" },
     { icon: FileText, href: "/cv.pdf", color: "bg-green-600 hover:bg-green-700" }
   ];
 
@@ -115,19 +115,19 @@ export default function Home() {
           <div className="w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden bg-gray-700 ring-4 ring-white/10">
             <img 
               src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400" 
-              alt="Alexander Chen"
+              alt="Luis Fernando Vallejo Aguilar"
               className="w-full h-full object-cover"
             />
           </div>
           
           {/* Name */}
           <h1 className="text-5xl md:text-7xl font-light mb-6 text-white tracking-tight">
-            Alexander Chen
+            Luis Fernando Vallejo
           </h1>
           
           {/* Title */}
           <h2 className="text-xl md:text-2xl text-gray-300 mb-16 font-light tracking-wide">
-            Senior Backend Developer | Arquitecto de Sistemas Escalables
+            Senior Backend Developer | Especialista en Microservicios y Cloud
           </h2>
           
           {/* Action Buttons */}
@@ -137,7 +137,7 @@ export default function Home() {
               className="bg-blue-600 hover:bg-blue-700 text-white px-10 py-4 rounded-md font-medium transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
             >
               <Linkedin className="w-5 h-5" />
-              Ponte en contacto con nosotros
+              Ponte en contacto
             </a>
             <a 
               href="/cv.pdf" 
@@ -172,19 +172,23 @@ export default function Home() {
               </h2>
               <div className="space-y-6 text-lg leading-relaxed font-light">
                 <p>
-                  ¡Hola! Soy Alexander, un entusiasta de las tecnologías backend que trabaja a tiempo completo como 
-                  Senior Backend Developer en TechCorp Solutions, imparto clases de Arquitectura de Software en 
-                  universidades locales y fundé una startup tecnológica.
+                  ¡Hola! Soy Luis Fernando, un desarrollador backend senior especializado en 
+                  <strong className="font-medium"> arquitecturas de microservicios</strong> y tecnologías cloud. 
+                  Actualmente trabajo en AUNA desarrollando soluciones escalables para el sector salud.
                 </p>
                 <p>
-                  Normalmente cumplo los roles de <strong className="font-medium">arquitecto de soluciones</strong> y <strong className="font-medium">desarrollador líder</strong> con un 
-                  fuerte enfoque en el crecimiento de mi equipo a través de desafíos técnicos, sesiones de 
-                  <strong className="font-medium">capacitación</strong>, <strong className="font-medium">presentaciones</strong> y <strong className="font-medium">tutoría</strong>.
+                  Mi experiencia abarca desde el desarrollo de <strong className="font-medium">microservicios distribuidos</strong> 
+                  hasta la implementación de <strong className="font-medium">arquitecturas hexagonales</strong> y 
+                  <strong className="font-medium">event-driven architecture</strong>. He trabajado con tecnologías como 
+                  <strong className="font-medium">Node.js</strong>, <strong className="font-medium">Spring Boot</strong>, 
+                  <strong className="font-medium">.NET Core</strong> y plataformas cloud como <strong className="font-medium">AWS</strong> 
+                  y <strong className="font-medium">Google Cloud Platform</strong>.
                 </p>
                 <p>
-                  He cambiado frecuentemente de tecnología, adquiriendo un dominio completo de 
-                  <strong className="font-medium">Node.js</strong>, <strong className="font-medium">Python</strong> y el ecosistema <strong className="font-medium">Cloud Native</strong>. Mi área de especialización actual se centra en 
-                  <strong className="font-medium">Amazon Web Services</strong>, <strong className="font-medium">Kubernetes</strong> y <strong className="font-medium">Microservicios</strong>.
+                  Tengo experiencia en la integración de sistemas complejos mediante 
+                  <strong className="font-medium">Kafka</strong>, <strong className="font-medium">mensajería asíncrona</strong> 
+                  y el desarrollo de <strong className="font-medium">microfrontends</strong> con Angular. 
+                  Mi enfoque se centra en crear soluciones robustas, escalables y mantenibles.
                 </p>
               </div>
               
@@ -207,7 +211,7 @@ export default function Home() {
               <div className="rounded-lg overflow-hidden shadow-2xl">
                 <img 
                   src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                  alt="Alexander Chen presenting"
+                  alt="Luis Fernando Vallejo presentando"
                   className="w-full h-auto object-cover"
                 />
               </div>
@@ -225,7 +229,7 @@ export default function Home() {
           
           <div className="grid lg:grid-cols-3 gap-8 mb-12">
             {projects.map((project, index) => (
-              <div key={index} className="border border-gray-100 rounded-lg p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 bg-white">
+              <div key={index} className="border border-gray-100 rounded-md p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 bg-white">
                 <div className="flex items-start justify-between mb-4">
                   <h3 className="text-xl font-medium text-gray-900 leading-tight">{project.name}</h3>
                   <div className="flex gap-2 ml-4">
@@ -314,7 +318,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8">
             {personalProjects.map((project, index) => (
-              <div key={index} className="border border-gray-100 rounded-lg p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+              <div key={index} className="border border-gray-100 rounded-md p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                 <div className="mb-4">
                   <span className="bg-green-500 text-white px-3 py-1 rounded-md text-sm font-medium">
                     {project.type}
@@ -344,7 +348,7 @@ export default function Home() {
             <Github className="w-12 h-12 mx-auto text-blue-400" />
           </div>
           <p className="text-lg font-light">
-            Este sitio web fue construido utilizando las siguientes bibliotecas de código abierto: 
+            Este sitio web fue construido utilizando las siguientes tecnologías: 
             <a href="#" className="text-blue-400 hover:text-blue-300 ml-1 transition-colors">Next.js</a>, 
             <a href="#" className="text-blue-400 hover:text-blue-300 ml-1 transition-colors">React</a>, 
             <a href="#" className="text-blue-400 hover:text-blue-300 ml-1 transition-colors">Tailwind CSS</a>.

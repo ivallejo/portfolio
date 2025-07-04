@@ -10,8 +10,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Alexander Chen - Senior Backend Developer',
-  description: 'Senior Backend Developer especializado en sistemas escalables y arquitecturas de microservicios. Construyendo soluciones que potencian millones de usuarios.',
+  title: 'Luis Fernando Vallejo - Senior Backend Developer',
+  description: 'Senior Backend Developer especializado en microservicios, arquitecturas cloud y sistemas escalables. Experto en Node.js, Spring Boot, AWS y Google Cloud Platform.',
 };
 
 export default function RootLayout({
