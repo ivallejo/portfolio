@@ -109,7 +109,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-900 text-white font-light">
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-6 relative">
+      <section className="min-h-screen flex flex-col items-center justify-center px-8 lg:px-16 xl:px-24 relative">
         <div className={`text-center transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           {/* Profile Image */}
           <div className="w-48 h-48 mx-auto mb-8 rounded-full overflow-hidden bg-gray-700 ring-4 ring-white/10">
@@ -163,7 +163,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-24 px-6 bg-gray-50 text-gray-900">
+      <section id="about" className="py-24 px-8 lg:px-16 xl:px-24 bg-gray-50 text-gray-900">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -221,7 +221,7 @@ export default function Home() {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-24 px-6 bg-white text-gray-900">
+      <section id="projects" className="py-24 px-8 lg:px-16 xl:px-24 bg-white text-gray-900">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-light mb-16 text-center tracking-tight">
             Aspectos destacados del proyecto
@@ -282,7 +282,7 @@ export default function Home() {
       </section>
 
       {/* Experience Section */}
-      <section className="py-24 px-6 bg-gray-50 text-gray-900">
+      <section className="py-24 px-8 lg:px-16 xl:px-24 bg-gray-50 text-gray-900">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-light mb-16 text-center tracking-tight">
             Historial laboral
@@ -314,8 +314,8 @@ export default function Home() {
       </section>
 
       {/* Personal Projects Section */}
-      <section id="personal-projects" className="py-24 px-6 bg-white text-gray-900">
-        <div className="max-w-4xl mx-auto">
+      <section id="personal-projects" className="py-24 px-8 lg:px-16 xl:px-24 bg-white text-gray-900">
+        <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-8">
             {personalProjects.map((project, index) => (
               <div key={index} className="border border-gray-100 rounded-md p-6 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
@@ -342,7 +342,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="py-12 px-6 bg-gray-900 text-gray-400">
+      <footer className="py-12 px-8 lg:px-16 xl:px-24 bg-gray-900 text-gray-400">
         <div className="max-w-7xl mx-auto text-center">
           <div className="mb-8">
             <Github className="w-12 h-12 mx-auto text-blue-400" />
