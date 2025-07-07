@@ -169,7 +169,7 @@ export default function Home() {
           
           {/* Title */}
           <h2 className="text-base md:text-lg text-gray-300 mb-8 font-light tracking-wide">
-            Senior Backend Developer | Especialista en Microservicios y Cloud
+            Senior Backend Developer | Especialista en Microservicios Cloud
           </h2>
           
           {/* Action Buttons */}
