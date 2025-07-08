@@ -175,7 +175,7 @@ export default function Home() {
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 justify-center mb-8">
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/fernandovallejoaguilar/" 
               className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-md font-medium transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 text-sm"
             >
               <Linkedin className="w-4 h-4" />
