@@ -143,7 +143,7 @@ export default function Home() {
     // { icon: Youtube, href: "https://youtube.com", color: "bg-red-600 hover:bg-red-700" },
     // { icon: Twitter, href: "https://twitter.com", color: "bg-blue-400 hover:bg-blue-500" },
     { icon: Mail, href: "mailto:vallejoaguilar@gmail.com", color: "bg-orange-500 hover:bg-orange-600" },
-          { icon: FileText, href: "/CV_Luis_Vallejo.doc", color: "bg-green-600 hover:bg-green-700" }
+          { icon: FileText, href: "/CV_Luis_Vallejo_Aguilar.pdf", color: "bg-green-600 hover:bg-green-700" }
   ];
 
   return (
@@ -182,7 +182,7 @@ export default function Home() {
               Ponte en contacto
             </a>
             <a 
-              href="/CV_Luis_Vallejo.doc" 
+              href="/CV_Luis_Vallejo_Aguilar.pdf" 
               download
               className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 rounded-md font-medium transition-all duration-300 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 text-sm"
             >
