@@ -55,7 +55,7 @@ export default function Home() {
       type: "Profesional",
       description: "Modernización del sistema ERP de Tottus mediante microservicios para automatizar la gestión de estados de órdenes. La solución mejora la eficiencia operativa al procesar automáticamente eventos y actualizar información en tiempo real. Se implementó una arquitectura cloud nativa en Google Cloud Platform con contenedores, integración continua y servicios gestionados para alta disponibilidad y escalabilidad.",
       technologies: [
-        "Spring Boot", "Node.js", "PostgreSQL", "Kafka", "Google Cloud", "GKE", "Docker", "GitLab CI", "Secret Manager", "Firestore", "BigQuery", "Pub/Sub", "Workload Identity", "Kustomize", "CloudSQL"
+        "Spring Boot", "Node.js", "C#", "PostgreSQL", "Kafka", "Google Cloud", "GKE", "Docker", "GitLab CI", "Secret Manager", "Firestore", "BigQuery", "Pub/Sub", "Workload Identity", "Kustomize", "CloudSQL"
       ],
       links: {}
     },
@@ -65,7 +65,7 @@ export default function Home() {
       type: "Profesional",
       description: "Sistema de procesamiento de pedidos para integración con sistemas externos mediante flujos de eventos asincrónicos. El servicio recibe eventos, procesa información de pedidos y los registra en sistemas externos, manteniendo trazabilidad completa del proceso. Se desarrolló una aplicación Angular para monitoreo y seguimiento de pedidos, permitiendo consultar el estado de registro y detectar fallos en el proceso.",
       technologies: [
-        "Node.js", "JavaScript", "Angular", "Google Cloud", "GKE", "Docker", "Kafka", "Pub/Sub", "Firestore", "Secret Manager", "DataDog", "GCR", "GitLab CI/CD"
+        "Node.js", "C#", "Angular", "Google Cloud", "GKE", "Docker", "Kafka", "Pub/Sub", "Firestore", "Secret Manager", "DataDog", "GCR", "GitLab CI/CD"
       ],
       links: {}
     },
@@ -74,7 +74,7 @@ export default function Home() {
       period: "2019 - 2021",
       type: "Profesional",
       description: "Desarrollo y mantenimiento de microservicios con Node.js y Laravel Lumen. Creación del portal estudiantil y aplicación móvil híbrida con Ionic. Sistema de colas para matrículas con Node.js, Angular y TypeScript.",
-      technologies: ["Node.js", "Laravel", "Angular", "Ionic", ".NET", "SQL Server", "MySQL", "PostgreSQL", "IAM", "EC2", "S3", "Docker", "Linux"],
+      technologies: ["Node.js", "C#", "Laravel", "Angular", "Ionic", ".NET", "SQL Server", "MySQL", "PostgreSQL", "IAM", "EC2", "S3", "Docker", "Linux"],
       links: {}
     }
   ];
