@@ -145,7 +145,6 @@ export default function Home() {
     { icon: Mail, href: "mailto:vallejoaguilar@gmail.com", color: "bg-orange-500 hover:bg-orange-600" },
           { icon: FileText, href: "/CV_Luis_Vallejo_Aguilar.pdf", color: "bg-green-600 hover:bg-green-700" }
   ];
-
   return (
     <div className="min-h-screen bg-gray-900 text-white font-light">
       {/* Hero Section */}
